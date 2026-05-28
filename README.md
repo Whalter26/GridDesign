@@ -3,6 +3,21 @@
 ## 🔗 Live Demo
 👉 https://whalter26.github.io/GridDesign/
 
+---
+
+## 🖼 Preview
+
+### 🖥 Desktop
+![Desktop](./preview-desktop.png)
+
+### 📱 Mobile
+![Mobile](./preview-mobile.png)
+
+### Full page
+![Full preview](./preview-desktop-full.png)
+
+---
+
 Мой первый полностью самостоятельный проект (без использования шаблонов и туториалов), созданный по найденному в интернете макету.  
 Проект выполнен для практики **адаптивной вёрстки**, **CSS Grid**, **Flexbox**, позиционирования и построения **UI-системы**.
 
