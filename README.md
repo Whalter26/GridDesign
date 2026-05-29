@@ -1,21 +1,5 @@
 # 📐 **Grid Design — адаптивный лендинг**
 
-## 🔗 Live Demo
-👉 https://whalter26.github.io/GridDesign/
-
----
-
-## 🖼 Preview
-
-### 🖥 Desktop
-![Desktop](./preview-desktop.png)
-
-### 📱 Mobile
-![Mobile](./preview-mobile.png)
-
-### Full page
-![Full preview](./preview-desktop-full.png)
-
 ---
 
 Мой первый полностью самостоятельный проект (без использования шаблонов и туториалов), созданный по найденному в интернете макету.  
@@ -23,6 +7,46 @@
 
 Сайт разработан **с нуля**, без фреймворков.  
 Поддерживает **desktop-версию** и **отдельную mobile-версию**, а не просто масштабирование.
+
+---
+
+## 🔗 Live Demo
+👉 https://whalter26.github.io/GridDesign/
+
+---
+
+## 🛠 **Технологии**
+
+- **HTML5**  
+- **CSS3**  
+- **CSS Grid / Flexbox**  
+- **SVG**  
+- **Адаптивная и отзывчивая вёрстка**  
+- **CSS-переменные**  
+- **UI-компоненты и модификаторы**
+
+---
+
+## 🖼 Preview
+
+<table width="100%">
+  <tr>
+    <td width="65%" align="center" valign="top">
+      <h3>🖥 Desktop</h3>
+      <img src="./preview-desktop.png" alt="Desktop" width="100%">
+    </td>
+    <td width="35%" align="center" valign="top">
+      <h3>📱 Mobile</h3>
+      <img src="./preview-mobile.png" alt="Mobile" width="100%">
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary>🔍 Посмотреть страницу целиком (Full page preview)</summary>
+<br>
+<img src="./preview-desktop-full.png" alt="Full preview" width="100%">
+</details>
 
 ---
 
@@ -40,11 +64,6 @@
 - Активное применение `grid-template-areas`  
 - Комбинация Grid + Flexbox  
 
-### 🧩 **Компонентный подход в CSS**
-- Единая система переменных  
-- Модификаторы  
-- Логичная структура и переиспользуемые элементы  
-
 ### 🎯 **Современные техники**
 - `clamp()` для адаптивной типографики  
 - `object-fit`  
@@ -60,13 +79,3 @@
 - Приведены к `currentColor` для удобной стилизации
 
 ---
-
-## 🛠 **Технологии**
-
-- **HTML5**  
-- **CSS3**  
-- **CSS Grid / Flexbox**  
-- **SVG**  
-- **Адаптивная и отзывчивая вёрстка**  
-- **CSS-переменные**  
-- **UI-компоненты и модификаторы**
