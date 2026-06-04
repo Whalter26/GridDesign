@@ -29,7 +29,11 @@
     <button
       class="header-burger-button mobile-only"
       type="button"
+      onclick="mobileOverlay.showModal()"
     >
+      <span class="visually-hidden">
+      Open navigation menu
+    </span>
       <img
         src="icons/header-burger-icon.svg"
         alt="Menu Icon"
@@ -185,12 +189,11 @@
       </h1>
       <h2 class="hero-mobile-title-description"> To create any grid by scaling
         and resizing
+        <a href="#hero-mobile-cards" class="hero-mobile-arrow-btn"></a>
       </h2>
-
-
     </div>
 
-    <div class="hero-mobile-cards">
+    <div class="hero-mobile-cards" id="hero-mobile-cards">
       <div class="hero-mobile-card1">
         <img
           class="hero-mobile-card"
@@ -1086,6 +1089,51 @@
     </div>
   </div>
 </footer>
+
+<dialog class="mobile-overlay mobile-only" id="mobileOverlay">
+  <form
+    class="cross-button-wrapper"
+    method="dialog"
+  >
+    <button
+      class="cross-button"
+      type="button"
+      onclick="document.getElementById('mobileOverlay').close()"
+    >
+      <span class="visually-hidden">
+        Close navigation menu
+      </span>
+    </button>
+  </form>
+
+  <div class="mobile-overlay-body">
+    <ul class="mobile-overlay-list">
+      <li class="mobile-overlay-item">
+        <a href="/" class="mobile-overlay-link">
+          How it works
+        </a>
+      </li>
+
+      <li class="mobile-overlay-item">
+        <a href="/" class="mobile-overlay-link">
+          Who we are
+        </a>
+      </li>
+
+      <li class="mobile-overlay-item">
+        <a href="/" class="mobile-overlay-link">
+          What we do
+        </a>
+      </li>
+
+      <li class="mobile-overlay-item">
+        <a href="/" class="mobile-overlay-link">
+          Contact us
+        </a>
+      </li>
+    </ul>
+  </div>
+</dialog>
 
 </body>
 </html>
