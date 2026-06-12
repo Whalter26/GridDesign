@@ -11,7 +11,8 @@
 ---
 
 ## 🔗 Live Demo
-👉 https://whalter26.github.io/GridDesign/
+
+👉 [Live Demo](https://whalter26.github.io/GridDesign/)
 
 ---
 
