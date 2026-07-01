@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Inter";
   src: url("fonts/Inter-Bold.woff2") format("woff2");
@@ -1774,6 +1775,19 @@ h2 {
     justify-content: space-between;
   }
 
+  .header-button-sign-in {
+    min-width: 100px;
+    height: 40px;
+    font-size: 14px;
+    padding-inline: 12px;
+    padding-block: 4px;
+    line-height: 1.5;
+  }
+
+  .button-purple {
+    padding-inline: 12px;
+    padding-block: 6px;
+  }
 
   .hero-mobile {
     overflow: hidden;
@@ -3181,6 +3195,10 @@ h2 {
 
 @media (max-width: 484px) {
 
+  .header {
+    flex-wrap: nowrap;
+  }
+
   .header-logo {
     width: 134px;
     height: 40px;
@@ -3417,6 +3435,11 @@ h2 {
     font-size: 18px;
   }
 
+@media (max-width: 380px) {
+  .header-logo-wrapper{
+   width: 50%;
+  }
+}
 
 }
 
