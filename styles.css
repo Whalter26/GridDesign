@@ -339,13 +339,14 @@ a, button, input, textarea, svg {
 .header-logo-wrapper {
   display: flex;
   align-items: center;
-  margin-right: clamp(50px, 96.94vw, 100px);
+  gap: 8px;
 }
 
 .header-logo {
   display: flex;
   align-items: center;
   text-decoration: none;
+  margin-right: clamp(50px, 96.94vw, 100px);
 }
 
 .header-logo-icon {
@@ -403,7 +404,10 @@ a, button, input, textarea, svg {
 .header-burger-button {
   border: none;
   background-color: transparent;
-  margin-right: 8px;
+  padding: 0;
+
+  align-items: center;
+  justify-content: center;
 }
 
 
