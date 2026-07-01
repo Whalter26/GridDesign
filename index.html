@@ -20,18 +20,13 @@
 
 <header class="header container">
 
-  <div class="header-logo">
-    <img
-      class="header-logo-icon desktop-only"
-      src="icons/header-logo-icon.svg"
-      alt="Layout Icon"
-    >
+  <div class="header-logo-wrapper">
     <button
       class="header-burger-button mobile-only"
       type="button"
       onclick="mobileOverlay.showModal()"
     >
-      <span class="visually-hidden">
+    <span class="visually-hidden">
       Open navigation menu
     </span>
       <img
@@ -39,7 +34,19 @@
         alt="Menu Icon"
       >
     </button>
-    <span class="header-logo-title">Grid</span>
+
+    <a
+      class="header-logo"
+      href="/"
+    >
+      <img
+        class="header-logo-icon desktop-only"
+        src="icons/header-logo-icon.svg"
+        alt="Layout Icon"
+      >
+
+      <span class="header-logo-title">Grid</span>
+    </a>
   </div>
   <nav class="header-menu desktop-only">
     <ul class="header-menu-list">
